@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8" />
+    <title>آریوبرزن</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body dir="rtl">
+    <table>
+        <tbody>
+            <tr>
+                <th colspan="100%" id="search_input"></th>
+            </tr>
+            <tr>
+                <th colspan="100%">
+                    <div id="pagin"></div>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <table id="servicesTable">
+        <tbody>
+            <tr>
+                <th>ID</th>
+                <th>نام خدمت</th>
+                <th>توضیحات</th>
+                <th>قیمت</th>
+                <th>دسته‌بندی</th>
+                <th>مدت زمان</th>
+                <th>عملیات</th>
+            </tr>
+            <tr style="display: table-row;">
+                <td>16</td>
+                <td>s</td>
+                <td>s</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>15</td>
+                <td>عمل فکری س</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>500</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>14</td>
+                <td>عمل فکری</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>500</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>13</td>
+                <td>عمل فکری</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>100</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>12</td>
+                <td>عمل فکری</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>100</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>11</td>
+                <td>عمل سرپایی</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>100</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>10</td>
+                <td>عمل سرپایی</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>100</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>9</td>
+                <td>عمل سرپایی</td>
+                <td>ندارد</td>
+                <td>250,000</td>
+                <td>ندارد</td>
+                <td>100</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>8</td>
+                <td>ویزیت عمومی</td>
+                <td></td>
+                <td>200,000</td>
+                <td></td>
+                <td>0</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: table-row;">
+                <td>7</td>
+                <td>ویزیت عمومی</td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+                <td>0</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: none;">
+                <td>6</td>
+                <td>ویزیت عمومی</td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+                <td>0</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: none;">
+                <td>5</td>
+                <td>ویزیت عمومی</td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+                <td>0</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: none;">
+                <td>4</td>
+                <td>ویزیت عمومی</td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+                <td>0</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: none;">
+                <td>3</td>
+                <td>عمل سر پایی</td>
+                <td></td>
+                <td>80,000</td>
+                <td>تست</td>
+                <td>30</td>
+                <td>ویرایش</td>
+            </tr>
+            <tr style="display: none;">
+                <td>2</td>
+                <td>دندان</td>
+                <td>تست</td>
+                <td>200,000</td>
+                <td>تست</td>
+                <td>30</td>
+                <td>ویرایش</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="pagination.js"></script>
+    <script>
+		refresh_pagination('servicesTable', 'search_input', true, 'pagin');
+    </script>
+</body>
+
+</html>
